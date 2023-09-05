@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(1, 15, 20);
+}
+
+.container {
+  max-width: 40rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.image {
+  padding: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 2rem;
+  background: linear-gradient(
+      to right,
+      rgb(49, 145, 255),
+      rgb(0, 230, 204),
+      rgb(49, 145, 255)
+    )
+    0% 100% / 300%;
+}
+
+.input {
+  width: 20rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+}
