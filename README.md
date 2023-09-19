@@ -1,5 +1,7 @@
 # Fetch Giphy Project
 
+![Fetch Giphy Webpage](/docs/fetch-giphy.png)
+
 The Fetch Giphy Project is a simple web application that utilizes the Giphy API to display GIFs on a webpage. It allows users to click a button to fetch a random GIF, as well as input their current mood to fetch a relevant GIF. The project is written in JavaScript and features a fetch method to make asynchronous requests.
 
 ## Rationale
