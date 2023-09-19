@@ -1,27 +1,25 @@
-# 01 Exercise - Fetch GIFs from Giphy
+# Fetch Giphy Project
 
-## Brief
-
-Use the Giphy API to display a GIF on the page when a button is clicked.
-
-You will read the Giphy API documentation, to get an understanding of what URLs you can use to do certain tasks. Then use the Fetch API to make requests to the Giphy API, to get the details of an image. Finally, you will use the image information to append an image to your HTML web page.
+The Fetch Giphy Project is a simple web application that utilizes the Giphy API to display GIFs on a webpage. It allows users to click a button to fetch a random GIF, as well as input their current mood to fetch a relevant GIF. The project is written in JavaScript and features a fetch method to make asynchronous requests.
 
 ## Rationale
 
 When building web applications, it's very common to fetch data from APIs. Being able to call APIs in JavaScript enables you to build sophisticated web applications that can run in the browser.
 
-## Optional extras
+## Table of Contents
 
-If you have finished the previous parts, you could try and complete one or more of the following ideas. You are welcome to try your own ideas too. It is **not** expected that you complete anything below.
+- [Features](#features)
+- [How to Use](#how-to-use)
 
-<details>
-<summary>Display a GIF based on user input</summary>
+## Features
 
-Display a form, where the user can enter their mood into a text input. When the form is submitted, display a GIF that relates to their mood.
+- Fetch a random GIF from Giphy.
+- Search and display a GIF based on the user's mood input.
+- Asynchronous JavaScript.
+- A clean and minimalistic user interface.
 
-**Acceptance criteria**
+## How to Use
 
-- There should be a form on the page, where a user can type in their mood.
-- When the form is submitted, display a GIF on the page that relates to their mood
+Click the "Random GIF" button to fetch and display a random GIF from Giphy.
 
-</details>
+Enter your mood or emotion in the input field and click the "Search" button. The project will fetch and display a relevant GIF based on your mood.
